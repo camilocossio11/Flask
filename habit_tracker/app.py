@@ -14,3 +14,4 @@ def add_habit():
     if request.method == 'POST':
         habits.append(request.form.get('habit'))
     return render_template('add_habit.html', title='Habit Tracker - Add Habit')
+
